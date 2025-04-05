@@ -7,7 +7,20 @@
     <title>Destin 2026 - Experience the Best of Destin</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Adjusting button style */
+        /* Header and button styles */
+        .header {
+            background-image: url('https://www.destin2026.com/your-banner-image.jpg'); /* Replace with actual banner image URL */
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 100px 0;
+            color: white;
+        }
+
+        .header-content h1 {
+            font-size: 3em;
+        }
+
         .cta-btn {
             background-color: #ff8c00;
             padding: 15px 25px;
@@ -18,14 +31,67 @@
             border-radius: 5px;
             cursor: pointer;
         }
+
         .cta-btn:hover {
             background-color: #ff6000;
+        }
+
+        /* Event Highlights section */
+        .events {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .event-cards {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .event-card {
+            width: 22%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .event-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .event-card h3 {
+            font-size: 1.5em;
+            margin-top: 15px;
+        }
+
+        .event-card p {
+            font-size: 1em;
+            color: #333;
+        }
+
+        .event-card a {
+            color: #ff8c00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .footer .social-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <!-- Header Section with New Banner -->
-    <header class="header" style="background-image: url('https://www.destin2026.com/your-banner-image.jpg');">
+    <!-- Header Section with Banner -->
+    <header class="header">
         <div class="header-content">
             <h1>Experience the Best of Destin 2026</h1>
             <p>Join us for unforgettable events and adventures in Destin, Florida!</p>
@@ -38,22 +104,22 @@
         <h2>Event Highlights</h2>
         <div class="event-cards">
             <div class="event-card">
-                <img src="https://www.destin2026.com/path-to-your-image/seafood.jpg" alt="Great Local Foods">
+                <img src="https://whatsgoodlocal.com/path-to-image/great-local-foods.jpg" alt="Great Local Foods">
                 <h3><a href="https://whatsgoodlocal.com/great-local-foods">Great Local Foods</a></h3>
                 <p>Enjoy fresh seafood and local specialties in Destin.</p>
             </div>
             <div class="event-card">
-                <img src="https://www.destin2026.com/path-to-your-image/bars.jpg" alt="Bars & Lounges">
+                <img src="https://whatsgoodlocal.com/path-to-image/bars-and-lounges.jpg" alt="Bars & Lounges">
                 <h3><a href="https://whatsgoodlocal.com/bars-%26-lounges">Bars & Lounges</a></h3>
                 <p>Relax and unwind at Destin's best bars and lounges.</p>
             </div>
             <div class="event-card">
-                <img src="https://www.destin2026.com/path-to-your-image/things-to-do.jpg" alt="Things to Do">
+                <img src="https://whatsgoodlocal.com/path-to-image/things-to-do.jpg" alt="Things to Do">
                 <h3><a href="https://whatsgoodlocal.com/things-to-do">Things to Do</a></h3>
                 <p>Find exciting activities for all ages in Destin.</p>
             </div>
             <div class="event-card">
-                <img src="https://www.destin2026.com/path-to-your-image/seafood-steak.jpg" alt="Fresh Seafood & Steaks">
+                <img src="https://whatsgoodlocal.com/path-to-image/seafood-steak.jpg" alt="Fresh Seafood & Steaks">
                 <h3><a href="https://whatsgoodlocal.com/seafood-%26-steak-houses">Fresh Seafood & Steaks</a></h3>
                 <p>Savor the finest seafood and steaks in Destin.</p>
             </div>
