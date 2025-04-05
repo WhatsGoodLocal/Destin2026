@@ -1,65 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Destin 2026 - Experience the Best of Destin</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discover Destin, Florida</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+      background-size: cover;
+      background-position: center;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+  </style>
 </head>
-<body>
-
-    <!-- Header Section with Updated Banner -->
-    <header class="header" style="background-image: url('https://images.unsplash.com/photo-1506748686211-b42f4d58e742?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg4OXwwfDF8c2VhY2h8MjR8fGJlYWNoJTIwYXBwaW5nJTIwYXBwfGVufDB8fHx8fDE2NjM4Mjk4NzA&ixlib=rb-1.2.1&q=80&w=1080');">
-        <div class="header-content">
-            <h1>Experience the Best of Destin 2026</h1>
-            <p>Join us for unforgettable events and adventures in Destin, Florida!</p>
-            <a href="#events" class="cta-btn">Learn More</a>
-        </div>
-    </header>
-
-    <!-- Event Highlights Section -->
-    <section id="events" class="events">
-        <h2>Event Highlights</h2>
-        <div class="event-cards">
-            <!-- Great Local Foods -->
-            <div class="event-card">
-                <img src="https://images.unsplash.com/photo-1578346644523-183bdfb55ea1?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg4OXwwfDF8c2VhY2h8MjV8fGdhdHJvbnBhc3RlcyUyMGJlYWNoJTIwYXBwaW5nJTIwb2YyY29hc3xlbnwwfHx8fDE2NjM4Mjk5MjE&ixlib=rb-1.2.1&q=80&w=1080" alt="Great Local Foods">
-                <h3><a href="https://whatsgoodlocal.com/great-local-foods">Great Local Foods</a></h3>
-                <p>Enjoy fresh seafood and local specialties in Destin.</p>
-            </div>
-
-            <!-- Bars & Lounges -->
-            <div class="event-card">
-                <img src="https://images.unsplash.com/photo-1517675314060-bb8a36d68e43?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg4OXwwfDF8c2VhY2h8Mjh8fGJlYWNoJTIwb2ZmZXJpbnxlbnwwfHx8fDE2NjM4Mjk5MjE&ixlib=rb-1.2.1&q=80&w=1080" alt="Bars & Lounges">
-                <h3><a href="https://whatsgoodlocal.com/bars-%26-lounges">Bars & Lounges</a></h3>
-                <p>Relax and unwind at Destin's best bars and lounges.</p>
-            </div>
-
-            <!-- Things to Do -->
-            <div class="event-card">
-                <img src="https://images.unsplash.com/photo-1517632323434-8f76a31c8bc9?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg4OXwwfDF8c2VhY2h8MjF8fGJlYWNoJTIwYXBwaW5nJTIwb2YyY29hc3xlbnwwfHx8fDE2NjM4Mjk5MjE&ixlib=rb-1.2.1&q=80&w=1080" alt="Things to Do">
-                <h3><a href="https://whatsgoodlocal.com/things-to-do">Things to Do</a></h3>
-                <p>Find exciting activities for all ages in Destin.</p>
-            </div>
-
-            <!-- Fresh Seafood & Steaks -->
-            <div class="event-card">
-                <img src="https://images.unsplash.com/photo-1506748490211-4a098ab8e387?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg4OXwwfDF8c2VhY2h8MjV8fGZyZXNoJTIwZGVzdGluYXRpb258ZW58MHx8fDE2NjM4Mjk5MjE&ixlib=rb-1.2.1&q=80&w=1080" alt="Fresh Seafood & Steaks">
-                <h3><a href="https://whatsgoodlocal.com/seafood-%26-steak-houses">Fresh Seafood & Steaks</a></h3>
-                <p>Savor the finest seafood and steaks in Destin.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer Section -->
-    <footer class="footer">
-        <p>&copy; 2025 Destin 2026 - All Rights Reserved</p>
-        <div class="social-links">
-            <a href="https://www.facebook.com/WhatsGoodLocalDestin" target="_blank">Facebook</a>
-            <a href="https://www.instagram.com/whatsgoodlocal5/" target="_blank">Instagram</a>
-        </div>
-    </footer>
-
+<body class="text-white min-h-screen flex items-center justify-center">
+  <div class="overlay w-full h-full fixed top-0 left-0 z-0"></div>
+  <main class="relative z-10 text-center p-8 max-w-2xl mx-auto">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Welcome to Destin, Florida</h1>
+    <p class="text-lg md:text-xl mb-6">White sand beaches, fresh seafood, tropical drinks, and unforgettable adventures!</p>
+    <div class="flex flex-col gap-4 items-center">
+      <a href="https://whatsgoodlocal.com" class="bg-yellow-400 text-black font-bold py-3 px-6 rounded-xl shadow-lg hover:bg-yellow-300 transition duration-300">
+        Explore What's Good Local
+      </a>
+      <div class="mt-6 space-y-3">
+        <a href="https://whatsgoodlocal.com/great-local-foods" class="block text-blue-200 hover:text-white text-lg">Best Seafood & Local Foods</a>
+        <a href="https://whatsgoodlocal.com/bars-%26-lounges" class="block text-blue-200 hover:text-white text-lg">Bars & Lounges</a>
+        <a href="https://whatsgoodlocal.com/things-to-do" class="block text-blue-200 hover:text-white text-lg">Things To Do in Destin</a>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
